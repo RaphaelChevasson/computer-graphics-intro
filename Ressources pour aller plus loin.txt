@@ -1,0 +1,59 @@
+=== Graphics Programming Resources - CM de Développement Multimédia ===
+
+Bonjour à tous,
+
+comme promis voici une liste des meilleures ressources sur la programmation graphique (qui s'accompagnent presque toutes de code open source).
+
+j'ai classé par type de média puis du plus fun/accessible au plus académique à chaque fois, pour pouvoir moduler suivant son humeur ;)
+
+--- le coin vidéo ---
+
+- quelques libs et moteurs de jeux en 100 secondes : Fireship
+    - WebGL https://www.youtube.com/watch?v=f-9LEoYYvE4 (j'aurais du commencer par ça vraiment)
+    - Unity https://www.youtube.com/watch?v=iqlH4okiQqg (vu ensemble)
+    - Unreal Engine https://www.youtube.com/watch?v=DXDe-2BC4cE
+    - Godot https://www.youtube.com/watch?v=QKgTZWbwD1U
+
+- simulation avec unity & des shaders (fluides, planètes aléatoires, ciel, nuages, système solaire et planètes aléatoires... chaque vidéo est une masterpiece) : Coding Adventures https://www.youtube.com/playlist?list=PLFt_AvWsXl0ehjAfLFsp1PGaatzAwo0uK
+
+- super explication du ray marching, par rapport au raytracing / à la rasterisation https://www.youtube.com/watch?v=svLzmFuSBhk : CodeParade (il a fait un jeu avec ça et des fractales 3D: https://www.youtube.com/watch?v=9U0XVdvQwAI)
+
+- creuser un sujet (l'eau, l'herbe/fourure, les couleurs) : Acerola https://www.youtube.com/@Acerola_t/videos
+    - bonne overview des métiers
+
+- intuition derière les matrices & les vecteurs : 3B1B linear algebra https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab
+
+
+--- le coin pratique ---
+
+programmer dans un moteur de jeu :
+- meilleur resource de loin : https://catlikecoding.com/unity/tutorials/
+    commencer par 2.2 Basics, ensuite pas hésiter à sauter à 2.6 Prototypes, puis ce qui vous fait envie.
+
+programmer avec une API graphique :
+- débutant : opengl + rendering concepts : https://learnopengl.com/
+- plus moderne mais en construction : webGPU + rendering concepts https://eliemichel.github.io/LearnWebGPU/introduction.html
+- plus utilisé dans le jeu vidéo :
+    - DirectX11 https://www.rastertek.com/tutdx11win10.html
+    (- DirectX12 / vulkan également mais très bas niveau -> dûr pour commencer)
+
+programmer des shaders :
+- débutant: cours avec code modifiable en live dans le navigateur https://thebookofshaders.com/?lan=fr
+- coin central pour se partager, trouver, modifier/coder en live des pixels shader dans son navigateur: https://www.shadertoy.com/
+- avancé:
+    GPU gem 1,2&3 https://developer.nvidia.com/gpugems/gpugems/contributors
+
+programmer de zéro : un raytracer simple en un weekend https://raytracing.github.io/
+
+--- le coin lecture ---
+
+la bible : RealTime Rendering book (3è édition gratuite, 4è payante pour l'instant) https://github.com/liqunzheng/GreenTea/blob/master/Document/Real-Time%20Rendering,%20Third%20Edition.pdf
+
+plonger dans l'architecture des GPUs :
+- Section 1. Intro et 2. Programming Model de  https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html
+
+référence en tout ce qui est raymarching : inigo quilez https://iquilezles.org/ (il fait quelques vidéos aussi)
+
+--- have fun! ---
+
+Raphaël Chevasson
